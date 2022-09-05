@@ -12,12 +12,11 @@ It utilizes the excellent [Faker](https://github.com/joke2k/faker/) library to g
 
 Generate a single log line to STDOUT
 ```
-$ python apache-fake-log-gen.py 
-
+$ python apache-fake-log-gen.py  
+```
 Generate log to Apache producer
 ```
-$ python apache-fake-log-gen.py -n 0 -o KAFKA
-
+$ python apache-fake-log-gen.py -n 0 -o KAFKA 
 ```
 
 Generate 100 log lines into a .log file
